@@ -12,14 +12,14 @@ setlocal
 :: or use the command line to pass all the variables
 
 set Port=465
-set SSL=True
-set From="louisemuzzen22@gmail.com"
-set To="jostein.j.baustad@gmail.com"
+set SSL=True :: True for Services like Gmail
+set From=""
+set To=""
 set Subject="Subject line"
 set Body="Email Body in one line"
 set SMTPServer="smtp.gmail.com"
-set User="louisemuzzen22@gmail.com"
-set Pass="lapras31345"
+set User=""
+set Pass=""
 set fileattach="%CD%\screen.png"
 
 
