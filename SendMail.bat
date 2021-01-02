@@ -12,7 +12,7 @@ setlocal
 :: or use the command line to pass all the variables
 
 set Port=465
-set SSL=True :: True for Services like Gmail
+set SSL=True ::True for Services like Gmail
 set From=""
 set To=""
 set Subject="Subject line"
